@@ -1,7 +1,7 @@
 remote: true
 
 experienceLevel:
-  internship: false
+  internship: true
   entry: true
   associate: true
   mid-senior level: true
@@ -18,32 +18,68 @@ jobTypes:
   volunteer: true
 
 date:
-  all time: false
+  all time: true
   month: false
   week: false
-  24 hours: true
+  24 hours: false
 
 positions:
-  - Software engineer
+  - Geographer
+  - Geospatial Analyst
+  - Cartographer
+  - GIS Specialist
+  - Environmental Consultant
+  - Conservation Scientist
+  - Sustainability Coordinator
+  - Political Risk Analyst
+  - Intelligence Analyst
+  - International Relations Specialist
+  - Program Manager
+  - Global Affairs Advisor
+  - Photojournalist
+  - Multimedia Journalist
+  - Photo Editor
+  - Visual Storyteller
+  - Editorial Photographer
+  - Sports Photographer
+  - Feature Photographer
+  - Press Photographer
+  - Photo Archivist
+  - Digital Content Producer
+  - Social Media Visual Content Creator
+  - Multimedia Producer
+  - Videographer
+  - Photo Researcher
+  - Photographic Curator
+  - Exhibition Photographer
+  - Conservation Photographer
+  - Photographic Archivist
+  - Digital Imaging Specialist
+  - Collections Photographer
+  - Art Documentation Photographer
+  - Curatorial Photographer
+  - Multimedia Specialist
+  - Photographic Curator
+  - Visual Media Archivist
+  - Photo Researcher
+
 
 locations:
-  - Germany
+  - Atlanta, GA
+  - United States
 
-apply_once_at_company: true
+apply_once_at_company: false
 
 distance: 100
 
 company_blacklist:
-  - wayfair
-  - Crossover
+  - "Fud, Inc."
 
 title_blacklist:
-  - word1
-  - word2
 
 job_applicants_threshold:
   min_applicants: 0
-  max_applicants: 30
+  max_applicants: 10000
 
 llm_model_type: openai
 llm_model: 'gpt-4o-mini'
